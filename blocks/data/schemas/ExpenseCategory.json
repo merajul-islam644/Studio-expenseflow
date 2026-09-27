@@ -1,0 +1,9 @@
+{
+  "schemaName": "ExpenseCategory",
+  "collectionName": "ExpenseCategories",
+  "fields": [
+    { "name": "name", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": true },
+    { "name": "displayName", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "sortOrder", "type": "Int", "isArray": false }
+  ]
+}

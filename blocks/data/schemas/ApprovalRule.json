@@ -1,0 +1,11 @@
+{
+  "schemaName": "ApprovalRule",
+  "collectionName": "ApprovalRules",
+  "fields": [
+    { "name": "label", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "minAmount", "type": "Float", "isArray": false, "isRequired": true },
+    { "name": "maxAmount", "type": "Float", "isArray": false },
+    { "name": "level", "type": "Int", "isArray": false, "isRequired": true },
+    { "name": "sortOrder", "type": "Int", "isArray": false }
+  ]
+}

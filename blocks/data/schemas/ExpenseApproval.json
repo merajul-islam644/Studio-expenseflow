@@ -1,0 +1,13 @@
+{
+  "schemaName": "ExpenseApproval",
+  "collectionName": "ExpenseApprovals",
+  "fields": [
+    { "name": "expenseId", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "level", "type": "Int", "isArray": false, "isRequired": true },
+    { "name": "approverUserId", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "approverName", "type": "String", "isArray": false },
+    { "name": "decision", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "comments", "type": "String", "isArray": false },
+    { "name": "decidedAt", "type": "DateTime", "isArray": false, "isRequired": true }
+  ]
+}

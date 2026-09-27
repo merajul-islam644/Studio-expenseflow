@@ -1,0 +1,13 @@
+{
+  "schemaName": "Budget",
+  "collectionName": "Budgets",
+  "fields": [
+    { "name": "departmentId", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "departmentName", "type": "String", "isArray": false },
+    { "name": "period", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "budgetAmount", "type": "Float", "isArray": false, "isRequired": true },
+    { "name": "spentAmount", "type": "Float", "isArray": false },
+    { "name": "periodStart", "type": "DateTime", "isArray": false, "isRequired": true },
+    { "name": "periodEnd", "type": "DateTime", "isArray": false }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schemaName": "Department",
+  "collectionName": "Departments",
+  "fields": [
+    { "name": "name", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": true },
+    { "name": "region", "type": "String", "isArray": false },
+    { "name": "headcount", "type": "Int", "isArray": false }
+  ]
+}

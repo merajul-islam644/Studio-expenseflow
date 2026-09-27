@@ -1,0 +1,17 @@
+{
+  "project": {
+    "tenantId": "D2fb9c1f5d6ce4f9b96003e18829810d6",
+    "apiUrl": "https://blocksapi.slsblx.com",
+    "appDomain": "https://D2fb9c1f5d6ce4f9b96003e18829810d6-8ad59a4c-db3c-40e1-9cd3-33ae105fb356.slsblx.com"
+  },
+  "data": {
+    "schemas": "blocks/data/schemas",
+    "rules": "blocks/data/rules.json"
+  },
+  "repo": {
+    "branch": "dev",
+    "fullName": "merajul-islam644/Studio-expenseflow",
+    "provider": "github",
+    "url": "https://github.com/merajul-islam644/Studio-expenseflow"
+  }
+}

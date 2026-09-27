@@ -1,0 +1,15 @@
+{
+  "schemaName": "ExpenseLineItem",
+  "collectionName": "ExpenseLineItems",
+  "fields": [
+    { "name": "expenseId", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "description", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "categoryId", "type": "String", "isArray": false, "isRequired": true },
+    { "name": "categoryName", "type": "String", "isArray": false },
+    { "name": "amount", "type": "Float", "isArray": false, "isRequired": true },
+    { "name": "receiptFileId", "type": "String", "isArray": false },
+    { "name": "receiptFileName", "type": "String", "isArray": false },
+    { "name": "receiptFileUrl", "type": "String", "isArray": false },
+    { "name": "sortOrder", "type": "Int", "isArray": false }
+  ]
+}
